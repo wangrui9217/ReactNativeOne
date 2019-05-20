@@ -33,7 +33,7 @@ class PictureContainer extends BaseComponent {
       dataSource: new ViewPager.DataSource({
         pageHasChanged: (p1, p2) => p1 !== p2,
       }),
-      loadingStatus: LoadingManagerView.Loading
+      loadingStatus: LoadingManagerView.LoadingSuccess
     };
   }
 
